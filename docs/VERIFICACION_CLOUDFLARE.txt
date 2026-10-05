@@ -1,0 +1,16 @@
+Verificación de la adaptación Cloudflare — 2026-10-05
+
+TypeScript: correcto.
+Build Vinext + plugin Cloudflare: correcto.
+Wrangler deploy --dry-run: correcto; no se publicó ningún Worker.
+Bindings compilados: DB (D1), BUCKET (R2), ASSETS (archivos estáticos).
+Tamaño indicado por Wrangler: 1228.77 KiB; gzip 340.71 KiB.
+Migración D1 local: 47 comandos ejecutados; migración aplicada.
+Aceptación del Worker con D1/R2 temporales: 16 grupos aprobados.
+Configurador: ID pendiente rechazado; bindings conservados; build desactualizado rechazado.
+
+El proyecto aún contiene REEMPLAZAR_CON_ID_D1 en wrangler.jsonc.
+Los nombres de Worker, D1 y R2 son propuestas y no recursos remotos creados.
+No se probaron la cuenta, los permisos ni el despliegue remoto de Cloudflare.
+El acceso al panel mostró un error de verificación. No se hicieron cambios en la cuenta.
+Los datos ficticios de pruebas y credenciales anteriores no forman parte de esta entrega.

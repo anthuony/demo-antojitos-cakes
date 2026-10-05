@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="wrap section"><div className="empty-state"><p className="eyebrow">ANTOJITOS CAKES · 404</p><h1>Este antojo no está aquí.</h1><p>La página no existe o el producto ya no está disponible.</p><a className="btn" href="/catalogo">Volver al catálogo</a></div></main>}

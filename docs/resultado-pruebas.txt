@@ -1,0 +1,18 @@
+PASS Migración limpia de 28 tablas
+PASS Importación real: 55 productos, 39 presentaciones, 6 por cotizar
+PASS Control de acceso y rechazo de origen externo
+PASS Activación única, contraseña y sesión de administración
+PASS Carrito persistente, variantes, cantidad, edición y aislamiento
+PASS Categorías, ocasiones, producto y opción obligatoria
+PASS Pedido transaccional, recálculo, precio desactualizado, idempotencia y seguimiento privado
+PASS Historial conserva nombres, opciones y precios tras edición y eliminación
+PASS Transiciones de estado, historial y privacidad de notas internas
+PASS Pedidos por cotizar sin inventar precios
+PASS Configuración, días, horarios, anticipación y fechas bloqueadas
+PASS Métodos de pago configurables y descuento calculado en servidor
+PASS Banners, campañas, preguntas y páginas: publicación y desactivación
+PASS Subida R2, recuperación de imagen y validación del formato
+PASS Reportes reales, conversión, clientes, exportación CSV y auditoría
+PASS Cambio de contraseña invalida sesiones; cierre de sesión efectivo
+
+16 grupos de pruebas completados. Solo datos ficticios en base desechable.

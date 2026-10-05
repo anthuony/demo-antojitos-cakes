@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vite/
+.vinext/
+.next/
+.wrangler/
+.env*
+!.env.example
+.dev.vars*
+*.tsbuildinfo
+*.log
+.DS_Store
+backups/

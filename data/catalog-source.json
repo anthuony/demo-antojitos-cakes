@@ -1,0 +1,5378 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "catalogUrl": "https://antojitoscakespzo.com/catalogo",
+    "homepageUrl": "https://antojitoscakespzo.com/",
+    "catalogLocalPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+    "homepageLocalPath": "/workspace/scratch/6d37d5ae0abd/official-homepage.html",
+    "catalogSha256": "1e3d650a4590db203469746456817eb4a3eea96f5d513650b9add675595a28f3",
+    "processedAt": "2026-09-27T15:58:12.429120+00:00",
+    "notes": "Extracción de los literales PRODUCTS/SECTIONS del HTML oficial. Precios y descripciones originales sin reconstrucción comercial. No se consultó inventario vivo."
+  },
+  "summary": {
+    "productCount": 55,
+    "categoryCount": 5,
+    "explicitVariantCount": 39,
+    "productsWithExplicitVariants": 17,
+    "catalogImageCount": 53,
+    "downloadedImageCount": 54,
+    "downloadedImageBytes": 7188840,
+    "quoteProductCount": 6,
+    "categoryCounts": {
+      "torta": 19,
+      "racion": 25,
+      "mini": 4,
+      "otro": 3,
+      "especial": 4
+    }
+  },
+  "business": {
+    "name": "Antojito’s Cakes",
+    "phone": "0286-9221624",
+    "phoneInternational": "+582869221624",
+    "email": "Antojitoscakes@hotmail.com",
+    "rif": "J-29751427-9",
+    "hours": {
+      "display": "8:00 am a 5:30 pm",
+      "opens": "08:00",
+      "closes": "17:30",
+      "source": "user",
+      "daysPublishedBySite": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ]
+    },
+    "whatsapp": {
+      "providedUrl": "https://wa.link/8f3dud",
+      "confirmedRedirectUrl": "https://api.whatsapp.com/send?phone=584249012343&text=Hola%F0%9F%A4%97%2C%20%C2%BFQu%C3%A9%20tal%3F%20Quisiera%20saber%20precios%20por%20favor%20%E2%9C%A8",
+      "phone": "584249012343",
+      "displayPhone": "+58 424 9012343",
+      "directUrl": "https://wa.me/584249012343",
+      "verificationMethod": "HTTP GET followed redirects, HTTP 200 final response; no message sent",
+      "destinationAccountTitle": "Antojitos Cakes"
+    },
+    "instagramUrl": "https://www.instagram.com/antojitoscakespzo/",
+    "tiktokUrl": "https://www.tiktok.com/@antojitoscakespzo",
+    "preferredContactSource": "User values override contradictory site values. Email and visible landline also match homepage."
+  },
+  "categories": [
+    {
+      "id": "torta",
+      "name": "Tortas Enteras",
+      "productCount": 19
+    },
+    {
+      "id": "racion",
+      "name": "Raciones",
+      "productCount": 25
+    },
+    {
+      "id": "mini",
+      "name": "Mini Tortas Frías",
+      "productCount": 4
+    },
+    {
+      "id": "otro",
+      "name": "Otros Productos",
+      "productCount": 3
+    },
+    {
+      "id": "especial",
+      "name": "Pedidos Especiales",
+      "productCount": 4
+    }
+  ],
+  "products": [
+    {
+      "id": "torta-imposible-choque",
+      "sourceIndex": 0,
+      "name": "Imposible / Choque",
+      "categoryId": "torta",
+      "description": "Torta imposible de chocolate con quesillo, disponible sola o con fresas frescas. El más pedido en nuestras 2 sedes.",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $47",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 47.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-imposible-choque-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-imposible-choque-c-fresas-15-porciones",
+          "label": "c/Fresas 15 porciones",
+          "sizeLabel": "c/Fresas",
+          "unitLabel": "15 porciones",
+          "price": {
+            "display": "$47",
+            "type": "fixed",
+            "amount": 47.0,
+            "minimum": 47.0,
+            "maximum": 47.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/imposible_choque.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/imposible_choque.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/imposible_choque.webp",
+        "catalogProductCount": 2,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 107246,
+        "sha256": "2cf94091c773d0b88551f66b4f923f85495be28469c1ac884212ad6fbf4e069a",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1802,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Imposible / Choque",
+        "img": "imagenes/imposible_choque.webp",
+        "desc": "Torta imposible de chocolate con quesillo, disponible sola o con fresas frescas. El más pedido en nuestras 2 sedes.",
+        "price": "$39 – $47",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$39"
+          },
+          {
+            "p": "c/Fresas",
+            "l": "15 porciones",
+            "v": "$47"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-navy-gold-birthday",
+      "sourceIndex": 1,
+      "name": "Navy & Gold Birthday",
+      "categoryId": "torta",
+      "description": "Torta premium en buttercream texturizado azul marino con acentos dorados decorativos y topper personalizado. Hecha a medida para celebraciones inolvidables",
+      "badge": "Premium",
+      "price": {
+        "display": "Pedido especial",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/navy_gold_birthday.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/navy_gold_birthday.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/navy_gold_birthday.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1400,
+        "height": 2488,
+        "format": "WEBP",
+        "bytes": 252448,
+        "sha256": "5df79deca4fe25abbad282d4d1f0aab9acf594975015b3130010a470538b5bfb",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": true,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1807,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Navy & Gold Birthday",
+        "img": "imagenes/navy_gold_birthday.webp",
+        "desc": "Torta premium en buttercream texturizado azul marino con acentos dorados decorativos y topper personalizado. Hecha a medida para celebraciones inolvidables",
+        "price": "Pedido especial",
+        "badge": "Premium",
+        "badgeColor": "#D4A017"
+      }
+    },
+    {
+      "id": "torta-oreolate",
+      "sourceIndex": 2,
+      "name": "Oreolate",
+      "categoryId": "torta",
+      "description": "Torta de chocolate rellena con Oreo americana, chantilly de chocolate y decoración premium",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$36 – $48",
+        "type": "range",
+        "amount": null,
+        "minimum": 36.0,
+        "maximum": 48.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-oreolate-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$36",
+            "type": "fixed",
+            "amount": 36.0,
+            "minimum": 36.0,
+            "maximum": 36.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-oreolate-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$48",
+            "type": "fixed",
+            "amount": 48.0,
+            "minimum": 48.0,
+            "maximum": 48.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/oreolate_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/oreolate_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/oreolate_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 125506,
+        "sha256": "e79abf9dc6b49c0cf5c994349c009b7f1219b265e1a0437d0911ac9ae23647e2",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1811,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Oreolate",
+        "img": "imagenes/oreolate_torta.webp",
+        "desc": "Torta de chocolate rellena con Oreo americana, chantilly de chocolate y decoración premium",
+        "price": "$36 – $48",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$36"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$48"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-chocolatico",
+      "sourceIndex": 3,
+      "name": "Chocolatico",
+      "categoryId": "torta",
+      "description": "Torta de chocolate en capas con crema de chocolate, disponible en 4 a 40 porciones",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "desde $18",
+        "type": "from",
+        "amount": null,
+        "minimum": 18.0,
+        "maximum": null,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-chocolatico-4-porciones",
+          "label": "4 porciones",
+          "sizeLabel": "4",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$18",
+            "type": "fixed",
+            "amount": 18.0,
+            "minimum": 18.0,
+            "maximum": 18.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocolatico-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$28",
+            "type": "fixed",
+            "amount": 28.0,
+            "minimum": 28.0,
+            "maximum": 28.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocolatico-12-porciones",
+          "label": "12 porciones",
+          "sizeLabel": "12",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$33",
+            "type": "fixed",
+            "amount": 33.0,
+            "minimum": 33.0,
+            "maximum": 33.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocolatico-20-porciones",
+          "label": "20 porciones",
+          "sizeLabel": "20",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$61",
+            "type": "fixed",
+            "amount": 61.0,
+            "minimum": 61.0,
+            "maximum": 61.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocolatico-30-porciones",
+          "label": "30 porciones",
+          "sizeLabel": "30",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$89",
+            "type": "fixed",
+            "amount": 89.0,
+            "minimum": 89.0,
+            "maximum": 89.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocolatico-40-porciones",
+          "label": "40 porciones",
+          "sizeLabel": "40",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$122",
+            "type": "fixed",
+            "amount": 122.0,
+            "minimum": 122.0,
+            "maximum": 122.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/chocolatico_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocolatico_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocolatico_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 93652,
+        "sha256": "07296ebab642d5b3626fd6ec795ee1837a87f9a0cce798e83b139e3d7cb1dd37",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1816,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Chocolatico",
+        "img": "imagenes/chocolatico_torta.webp",
+        "desc": "Torta de chocolate en capas con crema de chocolate, disponible en 4 a 40 porciones",
+        "price": "desde $18",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "4",
+            "l": "porciones",
+            "v": "$18"
+          },
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$28"
+          },
+          {
+            "p": "12",
+            "l": "porciones",
+            "v": "$33"
+          },
+          {
+            "p": "20",
+            "l": "porciones",
+            "v": "$61"
+          },
+          {
+            "p": "30",
+            "l": "porciones",
+            "v": "$89"
+          },
+          {
+            "p": "40",
+            "l": "porciones",
+            "v": "$122"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-flor-de-otono",
+      "sourceIndex": 4,
+      "name": "Flor de Otoño",
+      "categoryId": "torta",
+      "description": "Torta marmoleada con arequipe y crema pastelera, la más vendida de Antojito's",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$28 – $44",
+        "type": "range",
+        "amount": null,
+        "minimum": 28.0,
+        "maximum": 44.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-flor-de-otono-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$28",
+            "type": "fixed",
+            "amount": 28.0,
+            "minimum": 28.0,
+            "maximum": 28.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-flor-de-otono-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$44",
+            "type": "fixed",
+            "amount": 44.0,
+            "minimum": 44.0,
+            "maximum": 44.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/flor_otono_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/flor_otono_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/flor_otono_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 119398,
+        "sha256": "0ee2ca45f337aafcb3aadcbe7b309aa4970718d7d727a7648face0373b4d0c90",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1821,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Flor de Otoño",
+        "img": "imagenes/flor_otono_torta.webp",
+        "desc": "Torta marmoleada con arequipe y crema pastelera, la más vendida de Antojito's",
+        "price": "$28 – $44",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$28"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$44"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-chocofresa-arequipefresa",
+      "sourceIndex": 5,
+      "name": "Chocofresa / Arequipefresa",
+      "categoryId": "torta",
+      "description": "Torta de chocolate cubierta con fresas frescas, chantilly y arequipe",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $64",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 64.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-chocofresa-arequipefresa-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-chocofresa-arequipefresa-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$64",
+            "type": "fixed",
+            "amount": 64.0,
+            "minimum": 64.0,
+            "maximum": 64.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/chocofresa.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocofresa.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocofresa.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 230590,
+        "sha256": "f4aa0f1c06f190f6c7d803f666beaf3c6a67958bc412908d7e091f66afd95880",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1826,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Chocofresa / Arequipefresa",
+        "img": "imagenes/chocofresa.webp",
+        "desc": "Torta de chocolate cubierta con fresas frescas, chantilly y arequipe",
+        "price": "$39 – $64",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$39"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$64"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-beso-de-angel",
+      "sourceIndex": 6,
+      "name": "Beso de Ángel",
+      "categoryId": "torta",
+      "description": "Torta blanca esponjosa de vainilla con crema suave y decoración delicada",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $64",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 64.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-beso-de-angel-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-beso-de-angel-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$64",
+            "type": "fixed",
+            "amount": 64.0,
+            "minimum": 64.0,
+            "maximum": 64.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/beso_angel.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/beso_angel.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/beso_angel.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 66542,
+        "sha256": "dd60b95dd9e4647b0a5105efec4b7d599be45bff2c1b70a669f5e8160d0bf071",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1831,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Beso de Ángel",
+        "img": "imagenes/beso_angel.webp",
+        "desc": "Torta blanca esponjosa de vainilla con crema suave y decoración delicada",
+        "price": "$39 – $64",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$39"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$64"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-3-leches-frutales",
+      "sourceIndex": 7,
+      "name": "3 Leches Frutales",
+      "categoryId": "torta",
+      "description": "Esponja bañada en tres leches con chantilly y fresas frescas de temporada",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$54",
+        "type": "fixed",
+        "amount": 54.0,
+        "minimum": 54.0,
+        "maximum": 54.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-3-leches-frutales-12-porc-c-fresa",
+          "label": "12 porc. c/fresa",
+          "sizeLabel": "12",
+          "unitLabel": "porc. c/fresa",
+          "price": {
+            "display": "$54",
+            "type": "fixed",
+            "amount": 54.0,
+            "minimum": 54.0,
+            "maximum": 54.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/tres_leches_frutales.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_frutales.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_frutales.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 98000,
+        "sha256": "87c99267797e48e08ec8712d852bac4ed086b4186151f66cb97e0725a54d90db",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1836,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "3 Leches Frutales",
+        "img": "imagenes/tres_leches_frutales.webp",
+        "desc": "Esponja bañada en tres leches con chantilly y fresas frescas de temporada",
+        "price": "$54",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "12",
+            "l": "porc. c/fresa",
+            "v": "$54"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-3-leches-natural",
+      "sourceIndex": 8,
+      "name": "3 Leches Natural",
+      "categoryId": "torta",
+      "description": "Esponja bañada en tres leches naturales con chantilly suave y caramelo. Disponible en Mini, Bandeja 12 o Bandeja 20 porciones.",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$16 – $45",
+        "type": "range",
+        "amount": null,
+        "minimum": 16.0,
+        "maximum": 45.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-3-leches-natural-mini-3-leches",
+          "label": "Mini 3 leches",
+          "sizeLabel": "Mini",
+          "unitLabel": "3 leches",
+          "price": {
+            "display": "$16",
+            "type": "fixed",
+            "amount": 16.0,
+            "minimum": 16.0,
+            "maximum": 16.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-3-leches-natural-12-porciones",
+          "label": "12 porciones",
+          "sizeLabel": "12",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$30",
+            "type": "fixed",
+            "amount": 30.0,
+            "minimum": 30.0,
+            "maximum": 30.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-3-leches-natural-20-porciones",
+          "label": "20 porciones",
+          "sizeLabel": "20",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$45",
+            "type": "fixed",
+            "amount": 45.0,
+            "minimum": 45.0,
+            "maximum": 45.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/tres_leches_natural.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_natural.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_natural.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 87652,
+        "sha256": "8152b6191ebbc7d45c6e7a06c10252dfaf5401a68edfa736ca27693da0df2cc5",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1841,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "3 Leches Natural",
+        "img": "imagenes/tres_leches_natural.webp",
+        "desc": "Esponja bañada en tres leches naturales con chantilly suave y caramelo. Disponible en Mini, Bandeja 12 o Bandeja 20 porciones.",
+        "price": "$16 – $45",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "Mini",
+            "l": "3 leches",
+            "v": "$16"
+          },
+          {
+            "p": "12",
+            "l": "porciones",
+            "v": "$30"
+          },
+          {
+            "p": "20",
+            "l": "porciones",
+            "v": "$45"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-frutal-de-chantilly",
+      "sourceIndex": 9,
+      "name": "Frutal de Chantilly",
+      "categoryId": "torta",
+      "description": "Torta de chantilly decorada con fresas, kiwi y durazno frescos",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $64",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 64.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-frutal-de-chantilly-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-frutal-de-chantilly-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$64",
+            "type": "fixed",
+            "amount": 64.0,
+            "minimum": 64.0,
+            "maximum": 64.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/frutal_chantilly.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/frutal_chantilly.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/frutal_chantilly.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 182630,
+        "sha256": "25b656e1618e2e273021fafc6731a46250c22861a62992a81c3a2018159e54e5",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1846,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Frutal de Chantilly",
+        "img": "imagenes/frutal_chantilly.webp",
+        "desc": "Torta de chantilly decorada con fresas, kiwi y durazno frescos",
+        "price": "$39 – $64",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$39"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$64"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-vainilla-chocolate-y-quesillo",
+      "sourceIndex": 10,
+      "name": "Vainilla, Chocolate y Quesillo",
+      "categoryId": "torta",
+      "description": "Bizcocho de vainilla húmedo con toque de licor, relleno de chocolate y quesillo",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "desde $28",
+        "type": "from",
+        "amount": null,
+        "minimum": 28.0,
+        "maximum": null,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/vainilla_choc_quesillo_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/vainilla_choc_quesillo_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/vainilla_choc_quesillo_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 85364,
+        "sha256": "890d7317f813d86fc4168685acd4b0a5573f07ecb7eae3350e549f41f6f35036",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1851,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Vainilla, Chocolate y Quesillo",
+        "img": "imagenes/vainilla_choc_quesillo_torta.webp",
+        "desc": "Bizcocho de vainilla húmedo con toque de licor, relleno de chocolate y quesillo",
+        "price": "desde $28",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C"
+      }
+    },
+    {
+      "id": "torta-tiramisu",
+      "sourceIndex": 11,
+      "name": "Tiramisú",
+      "categoryId": "torta",
+      "description": "Tiramisú artesanal con bizcocho de café, mascarpone y cacao en polvo",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $64",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 64.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-tiramisu-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-tiramisu-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$64",
+            "type": "fixed",
+            "amount": 64.0,
+            "minimum": 64.0,
+            "maximum": 64.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/tiramisu.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tiramisu.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tiramisu.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 121866,
+        "sha256": "bea770022e5d7b35be8a82f0edc317563c03abd2015aba55eafbc06021674915",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1855,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Tiramisú",
+        "img": "imagenes/tiramisu.webp",
+        "desc": "Tiramisú artesanal con bizcocho de café, mascarpone y cacao en polvo",
+        "price": "$39 – $64",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$39"
+          },
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$64"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-red-velvet",
+      "sourceIndex": 12,
+      "name": "Red Velvet",
+      "categoryId": "torta",
+      "description": "Torta red velvet con frosting de queso crema y capas esponjosas de color rojo",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$50 – $75",
+        "type": "range",
+        "amount": null,
+        "minimum": 50.0,
+        "maximum": 75.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-red-velvet-10-porciones",
+          "label": "10 porciones",
+          "sizeLabel": "10",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$50",
+            "type": "fixed",
+            "amount": 50.0,
+            "minimum": 50.0,
+            "maximum": 50.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-red-velvet-20-porciones",
+          "label": "20 porciones",
+          "sizeLabel": "20",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$75",
+            "type": "fixed",
+            "amount": 75.0,
+            "minimum": 75.0,
+            "maximum": 75.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/red_velvet.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/red_velvet.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/red_velvet.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 134032,
+        "sha256": "ce2f9f65a22cb9770ce38cd5140c72890512f43f7f58aa9011ab7ae73d8ffc2c",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1860,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Red Velvet",
+        "img": "imagenes/red_velvet.webp",
+        "desc": "Torta red velvet con frosting de queso crema y capas esponjosas de color rojo",
+        "price": "$50 – $75",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "10",
+            "l": "porciones",
+            "v": "$50"
+          },
+          {
+            "p": "20",
+            "l": "porciones",
+            "v": "$75"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-marmoleaditas",
+      "sourceIndex": 13,
+      "name": "Marmoleaditas",
+      "categoryId": "torta",
+      "description": "Torta marmoleada con arequipe o chocolate — sola o rellena en varios tamaños",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "desde $23",
+        "type": "from",
+        "amount": null,
+        "minimum": 23.0,
+        "maximum": null,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-marmoleaditas-8-porciones",
+          "label": "8 porciones",
+          "sizeLabel": "8",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$23",
+            "type": "fixed",
+            "amount": 23.0,
+            "minimum": 23.0,
+            "maximum": 23.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-marmoleaditas-12-porc-rellena",
+          "label": "12 porc. Rellena",
+          "sizeLabel": "12",
+          "unitLabel": "porc. Rellena",
+          "price": {
+            "display": "$31",
+            "type": "fixed",
+            "amount": 31.0,
+            "minimum": 31.0,
+            "maximum": 31.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-marmoleaditas-20-porc-rellena",
+          "label": "20 porc. Rellena",
+          "sizeLabel": "20",
+          "unitLabel": "porc. Rellena",
+          "price": {
+            "display": "$48",
+            "type": "fixed",
+            "amount": 48.0,
+            "minimum": 48.0,
+            "maximum": 48.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-marmoleaditas-30-porc-rellena",
+          "label": "30 porc. Rellena",
+          "sizeLabel": "30",
+          "unitLabel": "porc. Rellena",
+          "price": {
+            "display": "$68",
+            "type": "fixed",
+            "amount": 68.0,
+            "minimum": 68.0,
+            "maximum": 68.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-marmoleaditas-40-porc-rellena",
+          "label": "40 porc. Rellena",
+          "sizeLabel": "40",
+          "unitLabel": "porc. Rellena",
+          "price": {
+            "display": "$89",
+            "type": "fixed",
+            "amount": 89.0,
+            "minimum": 89.0,
+            "maximum": 89.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/marmoleaditas.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/marmoleaditas.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/marmoleaditas.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 116586,
+        "sha256": "12528a46658b76cec748c20f339a5adb720a6d792f598c9eac97c83d761db792",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1865,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Marmoleaditas",
+        "img": "imagenes/marmoleaditas.webp",
+        "desc": "Torta marmoleada con arequipe o chocolate — sola o rellena en varios tamaños",
+        "price": "desde $23",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "8",
+            "l": "porciones",
+            "v": "$23"
+          },
+          {
+            "p": "12",
+            "l": "porc. Rellena",
+            "v": "$31"
+          },
+          {
+            "p": "20",
+            "l": "porc. Rellena",
+            "v": "$48"
+          },
+          {
+            "p": "30",
+            "l": "porc. Rellena",
+            "v": "$68"
+          },
+          {
+            "p": "40",
+            "l": "porc. Rellena",
+            "v": "$89"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-pie-de-limon-parchita",
+      "sourceIndex": 14,
+      "name": "Pie de Limón / Parchita",
+      "categoryId": "torta",
+      "description": "Pie de limón o parchita con merengue italiano artesanal, disponible mediano y grande",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $44",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 44.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-pie-de-limon-parchita-med-presentacion",
+          "label": "Med. presentación",
+          "sizeLabel": "Med.",
+          "unitLabel": "presentación",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-pie-de-limon-parchita-grande-presentacion",
+          "label": "Grande presentación",
+          "sizeLabel": "Grande",
+          "unitLabel": "presentación",
+          "price": {
+            "display": "$44",
+            "type": "fixed",
+            "amount": 44.0,
+            "minimum": 44.0,
+            "maximum": 44.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/pie_limon_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_limon_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_limon_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 144880,
+        "sha256": "e2693779995a88186a300467240c284d5ece0991cd5d682d39e31338204df0a5",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1870,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Pie de Limón / Parchita",
+        "img": "imagenes/pie_limon_torta.webp",
+        "desc": "Pie de limón o parchita con merengue italiano artesanal, disponible mediano y grande",
+        "price": "$39 – $44",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "Med.",
+            "l": "presentación",
+            "v": "$39"
+          },
+          {
+            "p": "Grande",
+            "l": "presentación",
+            "v": "$44"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-tartaleta-de-frutas",
+      "sourceIndex": 15,
+      "name": "Tartaleta de Frutas",
+      "categoryId": "torta",
+      "description": "Tartaleta con base crocante, crema pastelera y frutas frescas de temporada",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$39 – $51",
+        "type": "range",
+        "amount": null,
+        "minimum": 39.0,
+        "maximum": 51.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-tartaleta-de-frutas-med-presentacion",
+          "label": "Med. presentación",
+          "sizeLabel": "Med.",
+          "unitLabel": "presentación",
+          "price": {
+            "display": "$39",
+            "type": "fixed",
+            "amount": 39.0,
+            "minimum": 39.0,
+            "maximum": 39.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-tartaleta-de-frutas-grande-presentacion",
+          "label": "Grande presentación",
+          "sizeLabel": "Grande",
+          "unitLabel": "presentación",
+          "price": {
+            "display": "$51",
+            "type": "fixed",
+            "amount": 51.0,
+            "minimum": 51.0,
+            "maximum": 51.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/tartaleta_frutas.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tartaleta_frutas.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tartaleta_frutas.webp",
+        "catalogProductCount": 2,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 110172,
+        "sha256": "bdd2337845b8b780ac9413f0c51363c0ffd78737ac4e12826936429fa2d06672",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1875,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Tartaleta de Frutas",
+        "img": "imagenes/tartaleta_frutas.webp",
+        "desc": "Tartaleta con base crocante, crema pastelera y frutas frescas de temporada",
+        "price": "$39 – $51",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "Med.",
+            "l": "presentación",
+            "v": "$39"
+          },
+          {
+            "p": "Grande",
+            "l": "presentación",
+            "v": "$51"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-quesillo",
+      "sourceIndex": 16,
+      "name": "Quesillo",
+      "categoryId": "torta",
+      "description": "Quesillo venezolano artesanal, suave y cremoso bañado en caramelo natural",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$43",
+        "type": "fixed",
+        "amount": 43.0,
+        "minimum": 43.0,
+        "maximum": 43.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-quesillo-15-porciones",
+          "label": "15 porciones",
+          "sizeLabel": "15",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$43",
+            "type": "fixed",
+            "amount": 43.0,
+            "minimum": 43.0,
+            "maximum": 43.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/quesillo_torta.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/quesillo_torta.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/quesillo_torta.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 160134,
+        "sha256": "98925bd94baa8de094a3595503bcbe16da2f38cb0d2f9c74b6a6371ac55eba4b",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1880,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Quesillo",
+        "img": "imagenes/quesillo_torta.webp",
+        "desc": "Quesillo venezolano artesanal, suave y cremoso bañado en caramelo natural",
+        "price": "$43",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "15",
+            "l": "porciones",
+            "v": "$43"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-torta-de-profiteroles",
+      "sourceIndex": 17,
+      "name": "Torta de Profiteroles",
+      "categoryId": "torta",
+      "description": "Torta rellena con profiteroles y crema pastelera — pequeña 15 und, grande 30 und",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$35 – $69",
+        "type": "range",
+        "amount": null,
+        "minimum": 35.0,
+        "maximum": 69.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-torta-de-profiteroles-15-profiteroles",
+          "label": "15 profiteroles",
+          "sizeLabel": "15",
+          "unitLabel": "profiteroles",
+          "price": {
+            "display": "$35",
+            "type": "fixed",
+            "amount": 35.0,
+            "minimum": 35.0,
+            "maximum": 35.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        },
+        {
+          "id": "torta-torta-de-profiteroles-30-profiteroles",
+          "label": "30 profiteroles",
+          "sizeLabel": "30",
+          "unitLabel": "profiteroles",
+          "price": {
+            "display": "$69",
+            "type": "fixed",
+            "amount": 69.0,
+            "minimum": 69.0,
+            "maximum": 69.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/torta_profiteroles.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_profiteroles.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_profiteroles.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 118848,
+        "sha256": "0b5b72624c0555db1cc8b7c7c351ac187a8035f883b520775a69c7164e57d798",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1885,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Torta de Profiteroles",
+        "img": "imagenes/torta_profiteroles.webp",
+        "desc": "Torta rellena con profiteroles y crema pastelera — pequeña 15 und, grande 30 und",
+        "price": "$35 – $69",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "15",
+            "l": "profiteroles",
+            "v": "$35"
+          },
+          {
+            "p": "30",
+            "l": "profiteroles",
+            "v": "$69"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torta-torta-de-brownie",
+      "sourceIndex": 18,
+      "name": "Torta de Brownie",
+      "categoryId": "torta",
+      "description": "Torta de brownie artesanal densa y húmeda (Antojbrownie) — 20 porciones",
+      "badge": "🎂 Torta Entera",
+      "price": {
+        "display": "$95",
+        "type": "fixed",
+        "amount": 95.0,
+        "minimum": 95.0,
+        "maximum": 95.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [
+        {
+          "id": "torta-torta-de-brownie-20-porciones",
+          "label": "20 porciones",
+          "sizeLabel": "20",
+          "unitLabel": "porciones",
+          "price": {
+            "display": "$95",
+            "type": "fixed",
+            "amount": 95.0,
+            "minimum": 95.0,
+            "maximum": 95.0,
+            "symbol": "$",
+            "currencyCode": null,
+            "requiresQuote": false
+          }
+        }
+      ],
+      "image": {
+        "sourcePath": "imagenes/torta_brownie.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_brownie.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_brownie.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 202106,
+        "sha256": "33feddb7eae1e57b9f3fc267ff601714ea59056a6bbd36e47a233ba07a4ce7e2",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1890,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "torta",
+        "name": "Torta de Brownie",
+        "img": "imagenes/torta_brownie.webp",
+        "desc": "Torta de brownie artesanal densa y húmeda (Antojbrownie) — 20 porciones",
+        "price": "$95",
+        "badge": "🎂 Torta Entera",
+        "badgeColor": "#E91E8C",
+        "sizes": [
+          {
+            "p": "20",
+            "l": "porciones",
+            "v": "$95"
+          }
+        ]
+      }
+    },
+    {
+      "id": "racion-flor-de-otono",
+      "sourceIndex": 19,
+      "name": "Flor de Otoño",
+      "categoryId": "racion",
+      "description": "Bizcocho húmedo de vainilla relleno de crema pastelera y quesillo, topping de arequipe y lluvia de chocolate",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/flor_otono_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/flor_otono_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/flor_otono_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 188150,
+        "sha256": "007680ec12457af20e964243de43ee055afbfdbaaa9439a395129778fa3ede04",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1896,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Flor de Otoño",
+        "img": "imagenes/flor_otono_racion.webp",
+        "desc": "Bizcocho húmedo de vainilla relleno de crema pastelera y quesillo, topping de arequipe y lluvia de chocolate",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-oreolate",
+      "sourceIndex": 20,
+      "name": "Oreolate",
+      "categoryId": "racion",
+      "description": "Torta de chocolate rellena con trozos de Oreo y chantilly de chocolate, decorada con Oreo americana",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$6",
+        "type": "fixed",
+        "amount": 6.0,
+        "minimum": 6.0,
+        "maximum": 6.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/oreolate_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/oreolate_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/oreolate_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 163548,
+        "sha256": "7e67d76df24bc2d87db4338968ad7f877c6084b92cbb77c1f527f1a753c581e6",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1900,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Oreolate",
+        "img": "imagenes/oreolate_racion.webp",
+        "desc": "Torta de chocolate rellena con trozos de Oreo y chantilly de chocolate, decorada con Oreo americana",
+        "price": "$6",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-arequipe-con-quesillo",
+      "sourceIndex": 21,
+      "name": "Arequipe con Quesillo",
+      "categoryId": "racion",
+      "description": "Bizcocho húmedo de vainilla relleno de arequipe y quesillo con topping de arequipe",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/arequipe_quesillo_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/arequipe_quesillo_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/arequipe_quesillo_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 164622,
+        "sha256": "daf40cced1fdfcfe5795a06834b14f61bd31ba2df414090b651795c2aa080c36",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1904,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Arequipe con Quesillo",
+        "img": "imagenes/arequipe_quesillo_racion.webp",
+        "desc": "Bizcocho húmedo de vainilla relleno de arequipe y quesillo con topping de arequipe",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-vainilla-chocolate-y-quesillo",
+      "sourceIndex": 22,
+      "name": "Vainilla, Chocolate y Quesillo",
+      "categoryId": "racion",
+      "description": "Bizcocho de vainilla con toque de licor, relleno de chocolate y quesillo con chantilly",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/vainilla_choc_quesillo_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/vainilla_choc_quesillo_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/vainilla_choc_quesillo_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 165892,
+        "sha256": "e7a99a9e6a28206f9f50ca594b2a066b9d08858912d5cdc8e561fe96977f5feb",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1908,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Vainilla, Chocolate y Quesillo",
+        "img": "imagenes/vainilla_choc_quesillo_racion.webp",
+        "desc": "Bizcocho de vainilla con toque de licor, relleno de chocolate y quesillo con chantilly",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-kitkat",
+      "sourceIndex": 23,
+      "name": "KitKat",
+      "categoryId": "racion",
+      "description": "Torta de chocolate rellena de chantilly con KitKat y crema especial de KitKat, gotas de chocolate blanco",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/kitkat_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/kitkat_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/kitkat_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 167598,
+        "sha256": "9fcbf18f6a9fe0f2e4a0589da608b8734f4a9c71246e05929c814fcab12cee95",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1912,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "KitKat",
+        "img": "imagenes/kitkat_racion.webp",
+        "desc": "Torta de chocolate rellena de chantilly con KitKat y crema especial de KitKat, gotas de chocolate blanco",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-brownie",
+      "sourceIndex": 24,
+      "name": "Brownie",
+      "categoryId": "racion",
+      "description": "Dos capas de antojibrownie relleno con crema de avellanas, húmedo y denso",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/brownie_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/brownie_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/brownie_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 156272,
+        "sha256": "3af10126aeaa9d3c96ad98d89d4d42ebb3889185468d53a4028fcf11cff21a84",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1916,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Brownie",
+        "img": "imagenes/brownie_racion.webp",
+        "desc": "Dos capas de antojibrownie relleno con crema de avellanas, húmedo y denso",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-quesillo",
+      "sourceIndex": 25,
+      "name": "Quesillo",
+      "categoryId": "racion",
+      "description": "Ración de quesillo venezolano artesanal, suave y cremoso con caramelo natural",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/quesillo_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/quesillo_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/quesillo_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 111830,
+        "sha256": "9bf242a78f6a8b112907cb01aae602a84a60c91d07fb1e0d3ceae528e9f5725e",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1920,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Quesillo",
+        "img": "imagenes/quesillo_racion.webp",
+        "desc": "Ración de quesillo venezolano artesanal, suave y cremoso con caramelo natural",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-imposible-choque",
+      "sourceIndex": 26,
+      "name": "Imposible / Choque",
+      "categoryId": "racion",
+      "description": "Torta húmeda de chocolate con quesillo arriba y topping de arequipe",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$6",
+        "type": "fixed",
+        "amount": 6.0,
+        "minimum": 6.0,
+        "maximum": 6.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/imposible_choque.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/imposible_choque.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/imposible_choque.webp",
+        "catalogProductCount": 2,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 107246,
+        "sha256": "2cf94091c773d0b88551f66b4f923f85495be28469c1ac884212ad6fbf4e069a",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1924,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Imposible / Choque",
+        "img": "imagenes/imposible_choque.webp",
+        "desc": "Torta húmeda de chocolate con quesillo arriba y topping de arequipe",
+        "price": "$6",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-pie-de-limon",
+      "sourceIndex": 27,
+      "name": "Pie de Limón",
+      "categoryId": "racion",
+      "description": "Base de tartaleta rellena de crema de limón y merengue italiano con ralladura de limón",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/pie_limon_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_limon_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_limon_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 157162,
+        "sha256": "764a0995b2131205ec560684188c11800042adf6f717479b6f5a0a7a18f09606",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1928,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Pie de Limón",
+        "img": "imagenes/pie_limon_racion.webp",
+        "desc": "Base de tartaleta rellena de crema de limón y merengue italiano con ralladura de limón",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-pie-de-parchita",
+      "sourceIndex": 28,
+      "name": "Pie de Parchita",
+      "categoryId": "racion",
+      "description": "Base de tartaleta rellena de crema de parchita con topping de merengue italiano y mermelada de parchita",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/pie_parchita_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_parchita_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_parchita_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 108060,
+        "sha256": "08424542badd01b0ba2c6cf14e5723e59ba75bf46cbbdd95f5a41fde83fc5094",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1932,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Pie de Parchita",
+        "img": "imagenes/pie_parchita_racion.webp",
+        "desc": "Base de tartaleta rellena de crema de parchita con topping de merengue italiano y mermelada de parchita",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-tiramisu",
+      "sourceIndex": 29,
+      "name": "Tiramisú",
+      "categoryId": "racion",
+      "description": "Bizcocho húmedo con café, relleno de deliciosa crema de queso y decorado con cacao en polvo",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/tiramisu_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tiramisu_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tiramisu_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 136086,
+        "sha256": "b6443fec1888913453fdc38e6e939f88cbb41b6f9f0435b2bf2ad0e7680269f1",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1936,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Tiramisú",
+        "img": "imagenes/tiramisu_racion.webp",
+        "desc": "Bizcocho húmedo con café, relleno de deliciosa crema de queso y decorado con cacao en polvo",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-red-velvet",
+      "sourceIndex": 30,
+      "name": "Red Velvet",
+      "categoryId": "racion",
+      "description": "Capas de torta red velvet con relleno y topping de glaseado de queso crema",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$6",
+        "type": "fixed",
+        "amount": 6.0,
+        "minimum": 6.0,
+        "maximum": 6.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/red_velvet_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/red_velvet_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/red_velvet_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 157604,
+        "sha256": "984092a20af79bf6ec316f37659a00c42d9fd5ef18e042e775845057ab6513c0",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1940,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Red Velvet",
+        "img": "imagenes/red_velvet_racion.webp",
+        "desc": "Capas de torta red velvet con relleno y topping de glaseado de queso crema",
+        "price": "$6",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-tres-leches",
+      "sourceIndex": 31,
+      "name": "Tres Leches",
+      "categoryId": "racion",
+      "description": "Bizcocho húmedo de vainilla clásico de tres leches con chantilly y cereza",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/tres_leches_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 99580,
+        "sha256": "16fb9a884ec3a6f276cb02c2f9517d2a248241b27b0848f2ea92becc8197a246",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1944,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Tres Leches",
+        "img": "imagenes/tres_leches_racion.webp",
+        "desc": "Bizcocho húmedo de vainilla clásico de tres leches con chantilly y cereza",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-marmoleadita",
+      "sourceIndex": 32,
+      "name": "Marmoleadita",
+      "categoryId": "racion",
+      "description": "Esponjosa torta de vainilla con chocolate, topping de ganache de chocolate y gotas de chocolate blanco",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/marmoleadita_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/marmoleadita_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/marmoleadita_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 76278,
+        "sha256": "84b653afb5a138ce1c2f78798c10617e6d77ad6e6908a411170ec4d64c1355ab",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1948,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Marmoleadita",
+        "img": "imagenes/marmoleadita_racion.webp",
+        "desc": "Esponjosa torta de vainilla con chocolate, topping de ganache de chocolate y gotas de chocolate blanco",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-torta-de-naranjita",
+      "sourceIndex": 33,
+      "name": "Torta de Naranjita",
+      "categoryId": "racion",
+      "description": "Esponjosa torta de naranja con topping de chocolate y gotas de chocolate",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/naranjita_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/naranjita_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/naranjita_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 67360,
+        "sha256": "b93d0b8ebf72e8b82a8625574655cdc0f604f1ce14244ec5399da3368f706d23",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1952,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Torta de Naranjita",
+        "img": "imagenes/naranjita_racion.webp",
+        "desc": "Esponjosa torta de naranja con topping de chocolate y gotas de chocolate",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-torta-de-zanahoria",
+      "sourceIndex": 34,
+      "name": "Torta de Zanahoria",
+      "categoryId": "racion",
+      "description": "Bizcocho de zanahoria con frosty de queso crema y topping de nueces trituradas",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/zanahoria_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/zanahoria_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/zanahoria_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 74596,
+        "sha256": "7ef3494e14abfcf0b155e550971adba47e92d5549f80820b8e8041ae7c119d3e",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1956,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Torta de Zanahoria",
+        "img": "imagenes/zanahoria_racion.webp",
+        "desc": "Bizcocho de zanahoria con frosty de queso crema y topping de nueces trituradas",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-torta-de-pina",
+      "sourceIndex": 35,
+      "name": "Torta de Piña",
+      "categoryId": "racion",
+      "description": "Esponjosa torta de piña con rodaja de piña caramelizada y cereza",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/torta_pina_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_pina_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_pina_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 67316,
+        "sha256": "f31b02a22ee00ec2107a2e54b9dd82d2ec0d23bd21e0bfb7f7f38fba33e8b5bd",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1960,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Torta de Piña",
+        "img": "imagenes/torta_pina_racion.webp",
+        "desc": "Esponjosa torta de piña con rodaja de piña caramelizada y cereza",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-nutellina",
+      "sourceIndex": 36,
+      "name": "Nutellina",
+      "categoryId": "racion",
+      "description": "Bizcocho húmedo con toque de licor avellanado, relleno de crema de avellanas y praline de almendra",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/nutellina_racion.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/nutellina_racion.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/nutellina_racion.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 91120,
+        "sha256": "43d6625724632301d4fa51f09a7eac90eb7543b89479d321786ba93a5338a002",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1964,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Nutellina",
+        "img": "imagenes/nutellina_racion.webp",
+        "desc": "Bizcocho húmedo con toque de licor avellanado, relleno de crema de avellanas y praline de almendra",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-chocolatico-ponque",
+      "sourceIndex": 37,
+      "name": "Chocolático Ponque",
+      "categoryId": "racion",
+      "description": "Ponque individual de chocolate con topping de chocolate y decoración marbleada",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/chocolatico_ponque.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocolatico_ponque.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocolatico_ponque.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 135508,
+        "sha256": "3c65c05b257a4cbbbb33e209812461950d6ab301526b8b73392345685936a699",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1968,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Chocolático Ponque",
+        "img": "imagenes/chocolatico_ponque.webp",
+        "desc": "Ponque individual de chocolate con topping de chocolate y decoración marbleada",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-chocolate-con-crema-y-quesillo",
+      "sourceIndex": 38,
+      "name": "Chocolate con Crema y Quesillo",
+      "categoryId": "racion",
+      "description": "Torta de chocolate humedecida con toque de licor, relleno de chocolate y quesillo con chantilly",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$5",
+        "type": "fixed",
+        "amount": 5.0,
+        "minimum": 5.0,
+        "maximum": 5.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/choc_crema_quesillo.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/choc_crema_quesillo.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/choc_crema_quesillo.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 116150,
+        "sha256": "ba6520699b18f1e655ac3412eec3c937c89ee8948eae4c703d90e9f28f6c6dc5",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1972,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Chocolate con Crema y Quesillo",
+        "img": "imagenes/choc_crema_quesillo.webp",
+        "desc": "Torta de chocolate humedecida con toque de licor, relleno de chocolate y quesillo con chantilly",
+        "price": "$5",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-budin-de-pie-de-limon",
+      "sourceIndex": 39,
+      "name": "Budín de Pie de Limón",
+      "categoryId": "racion",
+      "description": "Bizcocho de limón humedecido con jugo de limón y cubierto con crema deliciosa de pie de limón",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$6",
+        "type": "fixed",
+        "amount": 6.0,
+        "minimum": 6.0,
+        "maximum": 6.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/budin_pie_limon.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/budin_pie_limon.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/budin_pie_limon.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 94702,
+        "sha256": "0946a977d204adfeae1b9898e40d497eaf99d29183c50aa323c5b6db359d30f1",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1976,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Budín de Pie de Limón",
+        "img": "imagenes/budin_pie_limon.webp",
+        "desc": "Bizcocho de limón humedecido con jugo de limón y cubierto con crema deliciosa de pie de limón",
+        "price": "$6",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-panque-de-vainilla",
+      "sourceIndex": 40,
+      "name": "Panque de Vainilla",
+      "categoryId": "racion",
+      "description": "Panque artesanal de vainilla, esponjoso y dorado — perfecto para acompañar el café",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$3",
+        "type": "fixed",
+        "amount": 3.0,
+        "minimum": 3.0,
+        "maximum": 3.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/panque_vainilla.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/panque_vainilla.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/panque_vainilla.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 122888,
+        "sha256": "92cd35c6ac1749fe2ef3fee4185b6a08088c93c486c1617c36f5e33209b10e5a",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1980,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Panque de Vainilla",
+        "img": "imagenes/panque_vainilla.webp",
+        "desc": "Panque artesanal de vainilla, esponjoso y dorado — perfecto para acompañar el café",
+        "price": "$3",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-tartaleta-de-frutas",
+      "sourceIndex": 41,
+      "name": "Tartaleta de Frutas",
+      "categoryId": "racion",
+      "description": "Base de tartaleta, rellena con crema pastelera y frutas tropicales frescas",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$7",
+        "type": "fixed",
+        "amount": 7.0,
+        "minimum": 7.0,
+        "maximum": 7.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/tartaleta_frutas.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/tartaleta_frutas.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tartaleta_frutas.webp",
+        "catalogProductCount": 2,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 110172,
+        "sha256": "bdd2337845b8b780ac9413f0c51363c0ffd78737ac4e12826936429fa2d06672",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1984,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Tartaleta de Frutas",
+        "img": "imagenes/tartaleta_frutas.webp",
+        "desc": "Base de tartaleta, rellena con crema pastelera y frutas tropicales frescas",
+        "price": "$7",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-galletitas",
+      "sourceIndex": 42,
+      "name": "Galletitas",
+      "categoryId": "racion",
+      "description": "Paquete de 100gr de galletas surtidas artesanales — un antojito a la vez",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$3",
+        "type": "fixed",
+        "amount": 3.0,
+        "minimum": 3.0,
+        "maximum": 3.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/galletitas.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/galletitas.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/galletitas.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 960,
+        "height": 1280,
+        "format": "WEBP",
+        "bytes": 85188,
+        "sha256": "3a799c5f419ee00d8a97f2966532240d915cf41f64abb3c0b8c935b1f87c232f",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": false,
+          "embeddedPromotionalText": true,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1988,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Galletitas",
+        "img": "imagenes/galletitas.webp",
+        "desc": "Paquete de 100gr de galletas surtidas artesanales — un antojito a la vez",
+        "price": "$3",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "racion-galletones",
+      "sourceIndex": 43,
+      "name": "Galletones",
+      "categoryId": "racion",
+      "description": "Galletas artesanales grandes y crocantes: chocolate, chips y red velvet",
+      "badge": "🍰 Ración Individual",
+      "price": {
+        "display": "$3",
+        "type": "fixed",
+        "amount": 3.0,
+        "minimum": 3.0,
+        "maximum": 3.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/galletones.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/galletones.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/galletones.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 175660,
+        "sha256": "5d4e94510e21dc169966db800dcf0866b54601e6ec8b29030cfb70f6bda60da3",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1992,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "racion",
+        "name": "Galletones",
+        "img": "imagenes/galletones.webp",
+        "desc": "Galletas artesanales grandes y crocantes: chocolate, chips y red velvet",
+        "price": "$3",
+        "badge": "🍰 Ración Individual",
+        "badgeColor": "#9B59B6"
+      }
+    },
+    {
+      "id": "mini-mini-frutal",
+      "sourceIndex": 44,
+      "name": "Mini Frutal",
+      "categoryId": "mini",
+      "description": "Mini torta fría de frutal con chantilly y decoración de frutas frescas (4 porciones)",
+      "badge": "✨ Mini Torta",
+      "price": {
+        "display": "$25",
+        "type": "fixed",
+        "amount": 25.0,
+        "minimum": 25.0,
+        "maximum": 25.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/mini_frutal.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_frutal.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_frutal.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 170994,
+        "sha256": "3505686b076c1915f1352a12960330132f7eaac6ea8ea554237d984057a53bc3",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 1997,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "mini",
+        "name": "Mini Frutal",
+        "img": "imagenes/mini_frutal.webp",
+        "desc": "Mini torta fría de frutal con chantilly y decoración de frutas frescas (4 porciones)",
+        "price": "$25",
+        "badge": "✨ Mini Torta",
+        "badgeColor": "#E67E22"
+      }
+    },
+    {
+      "id": "mini-mini-arequipe-flor-de-otono",
+      "sourceIndex": 45,
+      "name": "Mini Arequipe / Flor de Otoño",
+      "categoryId": "mini",
+      "description": "Mini torta fría marmoleada con arequipe cremoso y topping especial (4 porciones)",
+      "badge": "✨ Mini Torta",
+      "price": {
+        "display": "$20",
+        "type": "fixed",
+        "amount": 20.0,
+        "minimum": 20.0,
+        "maximum": 20.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/mini_arequipe.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_arequipe.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_arequipe.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 153176,
+        "sha256": "4c08828bcd7003ddbda04343bf5841b5d63f579bf7551ba0d40bf5babdb1fc34",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2001,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "mini",
+        "name": "Mini Arequipe / Flor de Otoño",
+        "img": "imagenes/mini_arequipe.webp",
+        "desc": "Mini torta fría marmoleada con arequipe cremoso y topping especial (4 porciones)",
+        "price": "$20",
+        "badge": "✨ Mini Torta",
+        "badgeColor": "#E67E22"
+      }
+    },
+    {
+      "id": "mini-mini-flor-de-otono",
+      "sourceIndex": 46,
+      "name": "Mini Flor de Otoño",
+      "categoryId": "mini",
+      "description": "Mini torta fría de Flor de Otoño con crema pastelera y decoración artesanal (4 porciones)",
+      "badge": "✨ Mini Torta",
+      "price": {
+        "display": "$20",
+        "type": "fixed",
+        "amount": 20.0,
+        "minimum": 20.0,
+        "maximum": 20.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/mini_flor_otono.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_flor_otono.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_flor_otono.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 118256,
+        "sha256": "73a578f8efd3c2f4982367643d9259b674bdab1bbe878da36dccc9c213da6180",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2005,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "mini",
+        "name": "Mini Flor de Otoño",
+        "img": "imagenes/mini_flor_otono.webp",
+        "desc": "Mini torta fría de Flor de Otoño con crema pastelera y decoración artesanal (4 porciones)",
+        "price": "$20",
+        "badge": "✨ Mini Torta",
+        "badgeColor": "#E67E22"
+      }
+    },
+    {
+      "id": "mini-mini-chocolatico",
+      "sourceIndex": 47,
+      "name": "Mini Chocolatico",
+      "categoryId": "mini",
+      "description": "Mini torta fría de chocolate con crema de chocolate y cerezas (4 porciones)",
+      "badge": "✨ Mini Torta",
+      "price": {
+        "display": "$25",
+        "type": "fixed",
+        "amount": 25.0,
+        "minimum": 25.0,
+        "maximum": 25.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/mini_chocolatico.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_chocolatico.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_chocolatico.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 120036,
+        "sha256": "8889477cbe95ce1bc47bb5191620e742d2e6966faf08dd5f0c15819eb7ef497f",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2009,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "mini",
+        "name": "Mini Chocolatico",
+        "img": "imagenes/mini_chocolatico.webp",
+        "desc": "Mini torta fría de chocolate con crema de chocolate y cerezas (4 porciones)",
+        "price": "$25",
+        "badge": "✨ Mini Torta",
+        "badgeColor": "#E67E22"
+      }
+    },
+    {
+      "id": "otro-gelatina",
+      "sourceIndex": 48,
+      "name": "Gelatina",
+      "categoryId": "otro",
+      "description": "Gelatina artesanal en capas de colores con vainilla y sabores de frutas",
+      "badge": "Postre",
+      "price": {
+        "display": "Consultar",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/gelatina.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/gelatina.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/gelatina.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 124932,
+        "sha256": "3ca0785f09a06373dfff292f81c80f31f2da5431f39f899edeb8fb7e4afe3114",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2014,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "otro",
+        "name": "Gelatina",
+        "img": "imagenes/gelatina.webp",
+        "desc": "Gelatina artesanal en capas de colores con vainilla y sabores de frutas",
+        "price": "Consultar",
+        "badge": "Postre",
+        "badgeColor": "#27AE60"
+      }
+    },
+    {
+      "id": "otro-cheesecake",
+      "sourceIndex": 49,
+      "name": "Cheesecake",
+      "categoryId": "otro",
+      "description": "Cheesecake artesanal con cobertura de frutas y caramelo — disponible por encargo",
+      "badge": "Postre",
+      "price": {
+        "display": "$50",
+        "type": "fixed",
+        "amount": 50.0,
+        "minimum": 50.0,
+        "maximum": 50.0,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/cheesecake.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/cheesecake.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/cheesecake.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 122472,
+        "sha256": "ae87b73ee3b22d838efc03f523ba242265973d9cdf22f69b4e52438ef924b82b",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2018,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "otro",
+        "name": "Cheesecake",
+        "img": "imagenes/cheesecake.webp",
+        "desc": "Cheesecake artesanal con cobertura de frutas y caramelo — disponible por encargo",
+        "price": "$50",
+        "badge": "Postre",
+        "badgeColor": "#27AE60"
+      }
+    },
+    {
+      "id": "otro-ponque",
+      "sourceIndex": 50,
+      "name": "Ponque",
+      "categoryId": "otro",
+      "description": "Ponque artesanal con frosting de buttercream y decoración de temporada",
+      "badge": "Ponque",
+      "price": {
+        "display": "$2.20",
+        "type": "fixed",
+        "amount": 2.2,
+        "minimum": 2.2,
+        "maximum": 2.2,
+        "symbol": "$",
+        "currencyCode": null,
+        "requiresQuote": false
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/ponque.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/ponque.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/ponque.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 184130,
+        "sha256": "af5a20b7333d67a1df63e3a3e0f4fb7daec5b3c4433120b898cbcef4711784c3",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": false,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2022,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "otro",
+        "name": "Ponque",
+        "img": "imagenes/ponque.webp",
+        "desc": "Ponque artesanal con frosting de buttercream y decoración de temporada",
+        "price": "$2.20",
+        "badge": "Ponque",
+        "badgeColor": "#27AE60"
+      }
+    },
+    {
+      "id": "especial-buttercream-personalizada",
+      "sourceIndex": 51,
+      "name": "Buttercream Personalizada",
+      "categoryId": "especial",
+      "description": "Torta con buttercream liso o con texturas, diseño y colores a elección del cliente",
+      "badge": "Especial",
+      "price": {
+        "display": "Consultar",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/buttercream_blanca.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_blanca.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_blanca.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 129786,
+        "sha256": "b17f011f13138e65711135cc3de9299c08f7c9b91a8c2491a4800324a30cf2b8",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": true,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2027,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "especial",
+        "name": "Buttercream Personalizada",
+        "img": "imagenes/buttercream_blanca.webp",
+        "desc": "Torta con buttercream liso o con texturas, diseño y colores a elección del cliente",
+        "price": "Consultar",
+        "badge": "Especial",
+        "badgeColor": "#8E44AD"
+      }
+    },
+    {
+      "id": "especial-buttercream-tematica",
+      "sourceIndex": 52,
+      "name": "Buttercream Temática",
+      "categoryId": "especial",
+      "description": "Torta con temática personalizada: personajes, fechas especiales, toppers y decoración única",
+      "badge": "Especial",
+      "price": {
+        "display": "Consultar",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/buttercream_tematica.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_tematica.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_tematica.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 142810,
+        "sha256": "4e64af6ca0846fb7d6c2bd3f3490978eb0b0c5b174c3a738c71904e0d20e1335",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": true,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2031,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "especial",
+        "name": "Buttercream Temática",
+        "img": "imagenes/buttercream_tematica.webp",
+        "desc": "Torta con temática personalizada: personajes, fechas especiales, toppers y decoración única",
+        "price": "Consultar",
+        "badge": "Especial",
+        "badgeColor": "#8E44AD"
+      }
+    },
+    {
+      "id": "especial-buttercream-de-temporada",
+      "sourceIndex": 53,
+      "name": "Buttercream de Temporada",
+      "categoryId": "especial",
+      "description": "Torta con decoración de temporada: Navidad, cumpleaños, baby shower, graduación y más",
+      "badge": "Especial",
+      "price": {
+        "display": "Consultar",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/buttercream_navidad.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_navidad.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_navidad.webp",
+        "catalogProductCount": 1,
+        "homepageReference": true,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 161242,
+        "sha256": "01fd93169c00b764b7b6fd79cc14101e7f3f68f5e10c8403155201c7fa769b1c",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": true,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2035,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "especial",
+        "name": "Buttercream de Temporada",
+        "img": "imagenes/buttercream_navidad.webp",
+        "desc": "Torta con decoración de temporada: Navidad, cumpleaños, baby shower, graduación y más",
+        "price": "Consultar",
+        "badge": "Especial",
+        "badgeColor": "#8E44AD"
+      }
+    },
+    {
+      "id": "especial-pedido-corporativo",
+      "sourceIndex": 54,
+      "name": "Pedido Corporativo",
+      "categoryId": "especial",
+      "description": "Pedidos en grandes cantidades para empresas y eventos. Raciones y tortas a escala",
+      "badge": "Corporativo",
+      "price": {
+        "display": "Consultar",
+        "type": "quote",
+        "amount": null,
+        "minimum": null,
+        "maximum": null,
+        "symbol": null,
+        "currencyCode": null,
+        "requiresQuote": true
+      },
+      "variants": [],
+      "image": {
+        "sourcePath": "imagenes/pedidos_corporativos.webp",
+        "sourceUrl": "https://antojitoscakespzo.com/imagenes/pedidos_corporativos.webp",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pedidos_corporativos.webp",
+        "catalogProductCount": 1,
+        "homepageReference": false,
+        "width": 1290,
+        "height": 2796,
+        "format": "WEBP",
+        "bytes": 144270,
+        "sha256": "f3f44f6196b38ad4c8b4e32805bee9855767ad835fb5969e912720ed933ad2b7",
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "lastModified": null,
+        "downloaded": true,
+        "visualNotes": {
+          "sourceIsMobileScreenshot": true,
+          "embeddedPromotionalText": false,
+          "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+        }
+      },
+      "requiresAdvanceOrder": true,
+      "availability": null,
+      "source": {
+        "url": "https://antojitoscakespzo.com/catalogo",
+        "localPath": "/workspace/scratch/6d37d5ae0abd/catalogo-source.html",
+        "line": 2039,
+        "section": "PRODUCTS"
+      },
+      "raw": {
+        "cat": "especial",
+        "name": "Pedido Corporativo",
+        "img": "imagenes/pedidos_corporativos.webp",
+        "desc": "Pedidos en grandes cantidades para empresas y eventos. Raciones y tortas a escala",
+        "price": "Consultar",
+        "badge": "Corporativo",
+        "badgeColor": "#8E44AD"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "orinokia",
+      "name": "Orinokia Mall",
+      "address": "C.C. Orinokia Mall, Puerto Ordaz",
+      "city": "Puerto Ordaz",
+      "region": "Bolívar",
+      "countryCode": "VE",
+      "latitude": 8.2920821,
+      "longitude": -62.7429793,
+      "mapUrl": "https://maps.app.goo.gl/vBpP27TTuzJmrVVLA",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=8.2920821,-62.7429793&z=16&output=embed",
+      "sourceLine": 3001,
+      "sourceUrl": "https://antojitoscakespzo.com/catalogo#sedes"
+    },
+    {
+      "id": "villa-alianza",
+      "name": "Villa Alianza",
+      "address": "Villa Alianza (Sambil), Puerto Ordaz",
+      "structuredDataAddress": "CC Sambil Puerto Ordaz",
+      "city": "Puerto Ordaz",
+      "region": "Bolívar",
+      "countryCode": "VE",
+      "latitude": 8.3055355,
+      "longitude": -62.717573,
+      "mapUrl": "https://maps.app.goo.gl/uH4MPRzT1Q4mrkZt7",
+      "mapEmbedUrl": "https://maps.google.com/maps?q=8.3055355,-62.717573&z=16&output=embed",
+      "sourceLine": 3019,
+      "sourceUrl": "https://antojitoscakespzo.com/catalogo#sedes"
+    }
+  ],
+  "currency": {
+    "symbol": "$",
+    "currencyCode": null,
+    "explicitIsoCodeFound": false,
+    "evidence": "Los precios publicados usan $, incluidos $39 – $47, desde $18 y $2.20. No aparecen USD, dólar, dólares, BCV ni tasa de cambio en el catálogo ni la portada.",
+    "inference": "USD es plausible por contexto, pero no queda confirmado en los documentos consultados.",
+    "displayRecommendation": "Conservar el símbolo $ y el texto original; no convertir a bolívares ni afirmar una tasa."
+  },
+  "paymentMethodsPublished": [
+    "Zelle",
+    "Pago Móvil",
+    "Binance Pay",
+    "Efectivo",
+    "Transferencia"
+  ],
+  "assets": [
+    {
+      "sourcePath": "imagenes/arequipe_quesillo_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/arequipe_quesillo_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/arequipe_quesillo_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 164622,
+      "sha256": "daf40cced1fdfcfe5795a06834b14f61bd31ba2df414090b651795c2aa080c36",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/beso_angel.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/beso_angel.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/beso_angel.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 66542,
+      "sha256": "dd60b95dd9e4647b0a5105efec4b7d599be45bff2c1b70a669f5e8160d0bf071",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/brownie_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/brownie_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/brownie_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 156272,
+      "sha256": "3af10126aeaa9d3c96ad98d89d4d42ebb3889185468d53a4028fcf11cff21a84",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/budin_pie_limon.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/budin_pie_limon.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/budin_pie_limon.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 94702,
+      "sha256": "0946a977d204adfeae1b9898e40d497eaf99d29183c50aa323c5b6db359d30f1",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/buttercream_blanca.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_blanca.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_blanca.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 129786,
+      "sha256": "b17f011f13138e65711135cc3de9299c08f7c9b91a8c2491a4800324a30cf2b8",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/buttercream_navidad.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_navidad.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_navidad.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 161242,
+      "sha256": "01fd93169c00b764b7b6fd79cc14101e7f3f68f5e10c8403155201c7fa769b1c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/buttercream_tematica.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/buttercream_tematica.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/buttercream_tematica.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 142810,
+      "sha256": "4e64af6ca0846fb7d6c2bd3f3490978eb0b0c5b174c3a738c71904e0d20e1335",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/cheesecake.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/cheesecake.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/cheesecake.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 122472,
+      "sha256": "ae87b73ee3b22d838efc03f523ba242265973d9cdf22f69b4e52438ef924b82b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/choc_crema_quesillo.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/choc_crema_quesillo.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/choc_crema_quesillo.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 116150,
+      "sha256": "ba6520699b18f1e655ac3412eec3c937c89ee8948eae4c703d90e9f28f6c6dc5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/chocofresa.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocofresa.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocofresa.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 230590,
+      "sha256": "f4aa0f1c06f190f6c7d803f666beaf3c6a67958bc412908d7e091f66afd95880",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/chocolatico_ponque.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocolatico_ponque.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocolatico_ponque.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 135508,
+      "sha256": "3c65c05b257a4cbbbb33e209812461950d6ab301526b8b73392345685936a699",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/chocolatico_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/chocolatico_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/chocolatico_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 93652,
+      "sha256": "07296ebab642d5b3626fd6ec795ee1837a87f9a0cce798e83b139e3d7cb1dd37",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/flor_otono_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/flor_otono_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/flor_otono_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 188150,
+      "sha256": "007680ec12457af20e964243de43ee055afbfdbaaa9439a395129778fa3ede04",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/flor_otono_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/flor_otono_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/flor_otono_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 119398,
+      "sha256": "0ee2ca45f337aafcb3aadcbe7b309aa4970718d7d727a7648face0373b4d0c90",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/frutal_chantilly.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/frutal_chantilly.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/frutal_chantilly.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 182630,
+      "sha256": "25b656e1618e2e273021fafc6731a46250c22861a62992a81c3a2018159e54e5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/galletitas.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/galletitas.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/galletitas.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 85188,
+      "sha256": "3a799c5f419ee00d8a97f2966532240d915cf41f64abb3c0b8c935b1f87c232f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/galletones.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/galletones.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/galletones.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 175660,
+      "sha256": "5d4e94510e21dc169966db800dcf0866b54601e6ec8b29030cfb70f6bda60da3",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/gelatina.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/gelatina.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/gelatina.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 124932,
+      "sha256": "3ca0785f09a06373dfff292f81c80f31f2da5431f39f899edeb8fb7e4afe3114",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/imposible_choque.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/imposible_choque.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/imposible_choque.webp",
+      "catalogProductCount": 2,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 107246,
+      "sha256": "2cf94091c773d0b88551f66b4f923f85495be28469c1ac884212ad6fbf4e069a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/kitkat_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/kitkat_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/kitkat_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 167598,
+      "sha256": "9fcbf18f6a9fe0f2e4a0589da608b8734f4a9c71246e05929c814fcab12cee95",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/marmoleadita_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/marmoleadita_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/marmoleadita_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 76278,
+      "sha256": "84b653afb5a138ce1c2f78798c10617e6d77ad6e6908a411170ec4d64c1355ab",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/marmoleaditas.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/marmoleaditas.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/marmoleaditas.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 116586,
+      "sha256": "12528a46658b76cec748c20f339a5adb720a6d792f598c9eac97c83d761db792",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/mini_arequipe.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_arequipe.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_arequipe.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 153176,
+      "sha256": "4c08828bcd7003ddbda04343bf5841b5d63f579bf7551ba0d40bf5babdb1fc34",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/mini_chocolatico.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_chocolatico.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_chocolatico.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 120036,
+      "sha256": "8889477cbe95ce1bc47bb5191620e742d2e6966faf08dd5f0c15819eb7ef497f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/mini_flor_otono.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_flor_otono.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_flor_otono.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 118256,
+      "sha256": "73a578f8efd3c2f4982367643d9259b674bdab1bbe878da36dccc9c213da6180",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/mini_frutal.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/mini_frutal.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/mini_frutal.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 170994,
+      "sha256": "3505686b076c1915f1352a12960330132f7eaac6ea8ea554237d984057a53bc3",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/naranjita_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/naranjita_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/naranjita_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 67360,
+      "sha256": "b93d0b8ebf72e8b82a8625574655cdc0f604f1ce14244ec5399da3368f706d23",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/navy_gold_birthday.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/navy_gold_birthday.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/navy_gold_birthday.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1400,
+      "height": 2488,
+      "format": "WEBP",
+      "bytes": 252448,
+      "sha256": "5df79deca4fe25abbad282d4d1f0aab9acf594975015b3130010a470538b5bfb",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/nutellina_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/nutellina_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/nutellina_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 91120,
+      "sha256": "43d6625724632301d4fa51f09a7eac90eb7543b89479d321786ba93a5338a002",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/oreolate_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/oreolate_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/oreolate_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 163548,
+      "sha256": "7e67d76df24bc2d87db4338968ad7f877c6084b92cbb77c1f527f1a753c581e6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/oreolate_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/oreolate_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/oreolate_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 125506,
+      "sha256": "e79abf9dc6b49c0cf5c994349c009b7f1219b265e1a0437d0911ac9ae23647e2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/panque_vainilla.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/panque_vainilla.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/panque_vainilla.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 122888,
+      "sha256": "92cd35c6ac1749fe2ef3fee4185b6a08088c93c486c1617c36f5e33209b10e5a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/pedidos_corporativos.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/pedidos_corporativos.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pedidos_corporativos.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 144270,
+      "sha256": "f3f44f6196b38ad4c8b4e32805bee9855767ad835fb5969e912720ed933ad2b7",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/pie_limon_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_limon_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_limon_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 157162,
+      "sha256": "764a0995b2131205ec560684188c11800042adf6f717479b6f5a0a7a18f09606",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/pie_limon_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_limon_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_limon_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 144880,
+      "sha256": "e2693779995a88186a300467240c284d5ece0991cd5d682d39e31338204df0a5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/pie_parchita_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/pie_parchita_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/pie_parchita_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 108060,
+      "sha256": "08424542badd01b0ba2c6cf14e5723e59ba75bf46cbbdd95f5a41fde83fc5094",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/ponque.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/ponque.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/ponque.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 184130,
+      "sha256": "af5a20b7333d67a1df63e3a3e0f4fb7daec5b3c4433120b898cbcef4711784c3",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/quesillo_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/quesillo_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/quesillo_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 111830,
+      "sha256": "9bf242a78f6a8b112907cb01aae602a84a60c91d07fb1e0d3ceae528e9f5725e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/quesillo_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/quesillo_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/quesillo_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 160134,
+      "sha256": "98925bd94baa8de094a3595503bcbe16da2f38cb0d2f9c74b6a6371ac55eba4b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/raciones_corporativas.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/raciones_corporativas.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/raciones_corporativas.webp",
+      "catalogProductCount": 0,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 175914,
+      "sha256": "6bf99f88ce474e95ccb55c404e6c3905adf1552b5ccc76fb25c87d1d8fbbcb92",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/red_velvet.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/red_velvet.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/red_velvet.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 134032,
+      "sha256": "ce2f9f65a22cb9770ce38cd5140c72890512f43f7f58aa9011ab7ae73d8ffc2c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/red_velvet_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/red_velvet_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/red_velvet_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 157604,
+      "sha256": "984092a20af79bf6ec316f37659a00c42d9fd5ef18e042e775845057ab6513c0",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tartaleta_frutas.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tartaleta_frutas.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tartaleta_frutas.webp",
+      "catalogProductCount": 2,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 110172,
+      "sha256": "bdd2337845b8b780ac9413f0c51363c0ffd78737ac4e12826936429fa2d06672",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tiramisu.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tiramisu.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tiramisu.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 121866,
+      "sha256": "bea770022e5d7b35be8a82f0edc317563c03abd2015aba55eafbc06021674915",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tiramisu_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tiramisu_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tiramisu_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 136086,
+      "sha256": "b6443fec1888913453fdc38e6e939f88cbb41b6f9f0435b2bf2ad0e7680269f1",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/torta_brownie.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_brownie.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_brownie.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 202106,
+      "sha256": "33feddb7eae1e57b9f3fc267ff601714ea59056a6bbd36e47a233ba07a4ce7e2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/torta_pina_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_pina_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_pina_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 67316,
+      "sha256": "f31b02a22ee00ec2107a2e54b9dd82d2ec0d23bd21e0bfb7f7f38fba33e8b5bd",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/torta_profiteroles.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/torta_profiteroles.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/torta_profiteroles.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 118848,
+      "sha256": "0b5b72624c0555db1cc8b7c7c351ac187a8035f883b520775a69c7164e57d798",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tres_leches_frutales.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_frutales.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_frutales.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 98000,
+      "sha256": "87c99267797e48e08ec8712d852bac4ed086b4186151f66cb97e0725a54d90db",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tres_leches_natural.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_natural.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_natural.webp",
+      "catalogProductCount": 1,
+      "homepageReference": true,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 87652,
+      "sha256": "8152b6191ebbc7d45c6e7a06c10252dfaf5401a68edfa736ca27693da0df2cc5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/tres_leches_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/tres_leches_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/tres_leches_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 99580,
+      "sha256": "16fb9a884ec3a6f276cb02c2f9517d2a248241b27b0848f2ea92becc8197a246",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/vainilla_choc_quesillo_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/vainilla_choc_quesillo_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/vainilla_choc_quesillo_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 165892,
+      "sha256": "e7a99a9e6a28206f9f50ca594b2a066b9d08858912d5cdc8e561fe96977f5feb",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/vainilla_choc_quesillo_torta.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/vainilla_choc_quesillo_torta.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/vainilla_choc_quesillo_torta.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 1290,
+      "height": 2796,
+      "format": "WEBP",
+      "bytes": 85364,
+      "sha256": "890d7317f813d86fc4168685acd4b0a5573f07ecb7eae3350e549f41f6f35036",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": true,
+        "embeddedPromotionalText": false,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    },
+    {
+      "sourcePath": "imagenes/zanahoria_racion.webp",
+      "sourceUrl": "https://antojitoscakespzo.com/imagenes/zanahoria_racion.webp",
+      "localPath": "/workspace/scratch/6d37d5ae0abd/official-assets/zanahoria_racion.webp",
+      "catalogProductCount": 1,
+      "homepageReference": false,
+      "width": 960,
+      "height": 1280,
+      "format": "WEBP",
+      "bytes": 74596,
+      "sha256": "7ef3494e14abfcf0b155e550971adba47e92d5549f80820b8e8041ae7c119d3e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "lastModified": null,
+      "downloaded": true,
+      "visualNotes": {
+        "sourceIsMobileScreenshot": false,
+        "embeddedPromotionalText": true,
+        "displayRecommendation": "Recorte visual CSS object-fit: cover; object-position: center; aspect-ratio: 1 / 1 para productos. Conservar original intacto."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "type": "catalog",
+      "url": "https://antojitoscakespzo.com/catalogo",
+      "section": "PRODUCTS",
+      "sourceLine": 1798,
+      "fact": "55 entradas, 39 variantes explícitas en 17 productos; 53 archivos de imagen únicos."
+    },
+    {
+      "type": "price-sync",
+      "url": "https://antojitoscakespzo.com/catalogo",
+      "sourceLine": 2129,
+      "fact": "SHEETS_URL está vacío: la sincronización de precios externa está desactivada en el HTML descargado."
+    },
+    {
+      "type": "order",
+      "url": "https://antojitoscakespzo.com/",
+      "sourceLine": 2346,
+      "fact": "Pedidos especiales con 48 horas de anticipación. Delivery disponible: consultar zona."
+    },
+    {
+      "type": "availability",
+      "url": "https://antojitoscakespzo.com/catalogo",
+      "sourceLine": 2491,
+      "fact": "El código distingue pedidos especiales de Consultar: Gelatina no tiene precio fijo publicado y no exige por ello anticipación."
+    },
+    {
+      "type": "contact",
+      "url": "https://antojitoscakespzo.com/",
+      "sourceLine": 2622,
+      "fact": "Email publicado coincide con el facilitado por el usuario: Antojitoscakes@hotmail.com."
+    },
+    {
+      "type": "whatsapp",
+      "url": "https://wa.link/8f3dud",
+      "fact": "Redirección GET confirmada a api.whatsapp.com/send?phone=584249012343. Cuenta: Antojitos Cakes."
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "hours",
+      "published": "Lunes a domingo · 10:00 AM – 9:00 PM",
+      "preferred": "8:00 am a 5:30 pm",
+      "resolution": "Priorizar instrucción del usuario."
+    },
+    {
+      "field": "phoneLink",
+      "publishedVisible": "0286-9221624",
+      "publishedHref": "tel:+580286922162",
+      "preferredHref": "tel:+582869221624",
+      "resolution": "El enlace del sitio incluye cero nacional después de +58 y omite el 4 final. Normalizar usando el número completo del usuario, confirmado visualmente en el sitio."
+    },
+    {
+      "field": "whatsappLink",
+      "publishedHref": "https://wa.me/5804249012343",
+      "confirmedNumber": "584249012343",
+      "resolution": "Usar enlace proporcionado por usuario o número confirmado en su redirección."
+    },
+    {
+      "field": "locationName",
+      "publishedVisible": "Villa Alianza (Sambil), Puerto Ordaz",
+      "publishedStructuredData": "CC Sambil Puerto Ordaz",
+      "resolution": "Conservar Villa Alianza (Sambil) como texto publicado; no inventar número de local ni afirmar geografía adicional."
+    },
+    {
+      "field": "bestseller",
+      "publishedDescriptions": [
+        "Imposible / Choque: El más pedido en nuestras 2 sedes.",
+        "Flor de Otoño: la más vendida de Antojito's"
+      ],
+      "resolution": "Son afirmaciones del catálogo no verificadas por ventas; no añadir estadísticas propias ni combinar ambas como ranking exclusivo."
+    }
+  ],
+  "unconfirmed": [
+    "No se conoce el código ISO de moneda ni una tasa de cambio publicada.",
+    "El stock por sede procede de un servicio dinámico y no fue consultado; availability permanece null.",
+    "No se publicó tamaño para la torta Vainilla, Chocolate y Quesillo (desde $28). No se fabrican variantes.",
+    "Imposible / Choque y Tartaleta de Frutas reutilizan la misma imagen para torta entera y ración.",
+    "El RIF se incorpora exclusivamente por instrucción del usuario; no aparece en los HTML consultados.",
+    "Se conserva cada una de las dos entradas Mini Arequipe / Flor de Otoño y Mini Flor de Otoño, aunque los nombres se solapan.",
+    "Las fotografías se descargan sin modificar desde el dominio oficial; no puede certificarse por el HTML el proceso de producción de cada imagen.",
+    "El logo suministrado no se ha modificado. No se descargaron logos alternativos para sustituirlo."
+  ],
+  "visualReview": {
+    "contactSheetPath": "/workspace/scratch/6d37d5ae0abd/official-assets-contact-sheet.jpg",
+    "observations": [
+      "Muchas imágenes oficiales son capturas verticales de pantalla, con interfaz y bandas negras arriba/abajo.",
+      "El recorte central cuadrado mediante CSS evita normalmente las bandas de interfaz. Revisar el encuadre al presentar cada producto.",
+      "Las imágenes de 960×1280 contienen textos promocionales integrados.",
+      "Se mantuvieron todos los archivos descargados intactos y se registró su hash SHA-256."
+    ],
+    "heroCandidates": [
+      "chocofresa.webp",
+      "oreolate_torta.webp",
+      "quesillo_torta.webp",
+      "tartaleta_frutas.webp"
+    ],
+    "heroRecommendation": "Preferir contenedor de fotografía con proporción 1:1 o 4:5 y recorte visual central; fotos originales no ofrecen fondo horizontal sin recorte."
+  }
+}

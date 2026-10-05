@@ -1,0 +1,2 @@
+import {storeData} from '@/lib/server/catalog';
+export async function GET(){const d=await storeData();const urls=d.settings.site_url?['','catalogo','ocasiones','sedes','contacto','preguntas-frecuentes',...d.products.map((p:any)=>'producto/'+p.slug),...d.pages.map((p:any)=>p.slug)].map(p=>'<url><loc>'+d.settings.site_url+'/'+p+'</loc></url>').join(''):'';return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>',{headers:{'Content-Type':'application/xml'}})}
