@@ -18,14 +18,8 @@
     {
       "binding": "DB",
       "database_name": "antojitos-cakes-db",
-      "database_id": "REEMPLAZAR_CON_ID_D1",
+      "database_id": "0a078b2c-2130-46c5-b7ca-8fbba3b5ba40",
       "migrations_dir": "drizzle"
-    }
-  ],
-  "r2_buckets": [
-    {
-      "binding": "BUCKET",
-      "bucket_name": "antojitos-cakes-imagenes"
     }
   ]
 }

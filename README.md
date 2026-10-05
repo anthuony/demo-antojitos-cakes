@@ -1,8 +1,8 @@
 # Antojitos Cakes — Cloudflare
 
-**Empieza por [LEEME_CLOUDFLARE.md](LEEME_CLOUDFLARE.md).** Esta entrega contiene la versión independiente para una cuenta propia de Cloudflare. Todavía hay que crear o seleccionar D1 y R2 y configurar el Database ID real antes del despliegue.
+**Edición gratuita:** empieza por [LEEME_GRATIS_SIN_R2.md](LEEME_GRATIS_SIN_R2.md). Esta variante usa D1 + archivos estáticos y no necesita activar R2 ni registrar un método de pago.
 
-Aplicación completa en español: React 19 y TypeScript, renderizado de servidor con Vinext, API de Cloudflare Workers, base de datos D1 (SQLite) y almacenamiento de imágenes R2. No procesa pagos ni envía mensajes automáticamente. El pedido se guarda antes de ofrecer el enlace a WhatsApp.
+Aplicación completa en español: React 19 y TypeScript, renderizado de servidor con Vinext, API de Cloudflare Workers, base de datos D1 (SQLite) y fotografías estáticas/URLs públicas, sin R2. No procesa pagos ni envía mensajes automáticamente. El pedido se guarda antes de ofrecer el enlace a WhatsApp.
 
 ## Incluye
 
@@ -26,7 +26,7 @@ pnpm db:local
 pnpm dev
 ```
 
-Abrir la dirección local indicada por el servidor. El servidor de desarrollo utiliza el puerto 5173. D1 y R2 locales se conservan en `.wrangler/state`; no son los datos de producción. En la primera visita se importa el catálogo una sola vez, sin sobrescribir posteriores cambios del administrador.
+Abrir la dirección local indicada por el servidor. El servidor de desarrollo utiliza el puerto 5173. D1 local se conserva en `.wrangler/state`; no son los datos de producción. En la primera visita se importa el catálogo una sola vez, sin sobrescribir posteriores cambios del administrador.
 
 ## Activar administración
 
@@ -51,11 +51,11 @@ pnpm build
 pnpm test:integration
 ```
 
-La prueba ejecuta el Worker compilado en D1/R2 temporales y desechables. No toca la base en uso ni envía WhatsApp. Ver `docs/PRUEBAS.md`. El build genera `dist/server` y `dist/client`. `pnpm run deploy:check` valida el paquete sin publicarlo.
+La prueba original fue diseñada para D1/R2 temporales; esta edición de despliegue no vincula R2. No toca la base en uso ni envía WhatsApp. Ver `docs/PRUEBAS.md`. El build genera `dist/server` y `dist/client`. `pnpm run deploy:check` valida el paquete sin publicarlo.
 
 ## Producción en Cloudflare
 
-Seguir [LEEME_CLOUDFLARE.md](LEEME_CLOUDFLARE.md). El Worker usa las vinculaciones `DB` (D1), `BUCKET` (R2) y `ASSETS` (archivos compilados). El catálogo inicial y sus fotos están incluidos. Los pedidos y las nuevas imágenes se guardan en D1/R2.
+Seguir [LEEME_CLOUDFLARE.md](LEEME_CLOUDFLARE.md). El Worker usa `DB` (D1) y `ASSETS` (archivos compilados). El catálogo inicial y sus fotos están incluidos. Los pedidos se guardan en D1. Para nuevas imágenes usa rutas incluidas o URLs públicas desde el panel.
 
 El despliegue ejecuta primero las migraciones pendientes. Se detiene si falta el Database ID real, si hay un build desactualizado o si falla la migración. El secreto `ADMIN_SETUP_TOKEN` se configura en el Worker, separado del repositorio y de las variables de compilación.
 
